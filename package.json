@@ -1,0 +1,16 @@
+{
+  "name": "covidnewsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "covidNews.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "csv": "node covidNews && node covidReport"
+  },
+  "author": "Rishav Goswami",
+  "license": "ISC",
+  "dependencies": {
+    "csvjson": "^5.1.0",
+    "jsonstream": "^1.0.3"
+  }
+}
