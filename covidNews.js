@@ -16,11 +16,24 @@ function getLatestNews() {
         }
     };
 
-    var writeStream = fs.createWriteStream('./rawNews.json');
-    
+    const writeStream = fs.createWriteStream('./rawNews.json');
+
     const req = https.request(options, (res) => {
         console.log(`statusCode: ${res.statusCode}`);
-        res.pipe(writeStream);
+        let data = '';
+        res.on('data', chunk => {
+            data += chunk;
+        }).on('end', () => {
+            const jsonData = JSON.parse(data);
+            const result = jsonData.feed["entry"].map(item => {
+                return {
+                    country: item.gsx$country.$t.trim(),
+                    confirmedCases: +item.gsx$confirmedcases.$t.replace(/,/g, ""),
+                    reportedDeaths: +item.gsx$reporteddeaths.$t.replace(/,/g, "")
+                };
+            });
+            writeToFile(result, path.join(__dirname, 'public', 'rawNews.json'));
+        }).pipe(writeStream);
     });
 
     req.on('error', error => {
@@ -30,8 +43,21 @@ function getLatestNews() {
     req.end();
 }
 
-// get lastest news from server
-getLatestNews();
+function writeToFile(data, path) {
+    const json = JSON.stringify(data, null, 4);
+    fs.writeFile(path, json, (err) => {
+        if (err) {
+            console.error(err);
+            throw err;
+        }
+        console.log('Saved latest news to file ...');
+    })
+}
+
+// get latest news from server
+// getLatestNews();
+
+module.exports = getLatestNews;
 
 
 

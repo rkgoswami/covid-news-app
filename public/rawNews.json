@@ -1,0 +1,1072 @@
+[
+    {
+        "country": "United States",
+        "confirmedCases": 1305199,
+        "reportedDeaths": 78469
+    },
+    {
+        "country": "Spain",
+        "confirmedCases": 240711,
+        "reportedDeaths": 26299
+    },
+    {
+        "country": "Italy",
+        "confirmedCases": 218268,
+        "reportedDeaths": 30395
+    },
+    {
+        "country": "France",
+        "confirmedCases": 174918,
+        "reportedDeaths": 26310
+    },
+    {
+        "country": "Germany",
+        "confirmedCases": 168551,
+        "reportedDeaths": 7369
+    },
+    {
+        "country": "United Kingdom",
+        "confirmedCases": 211364,
+        "reportedDeaths": 31241
+    },
+    {
+        "country": "Turkey",
+        "confirmedCases": 135569,
+        "reportedDeaths": 3689
+    },
+    {
+        "country": "Iran",
+        "confirmedCases": 106220,
+        "reportedDeaths": 6589
+    },
+    {
+        "country": "China",
+        "confirmedCases": 82887,
+        "reportedDeaths": 4633
+    },
+    {
+        "country": "Russia",
+        "confirmedCases": 198676,
+        "reportedDeaths": 1827
+    },
+    {
+        "country": "Brazil",
+        "confirmedCases": 146894,
+        "reportedDeaths": 10017
+    },
+    {
+        "country": "Belgium",
+        "confirmedCases": 52596,
+        "reportedDeaths": 8581
+    },
+    {
+        "country": "Canada",
+        "confirmedCases": 66780,
+        "reportedDeaths": 4628
+    },
+    {
+        "country": "Netherlands",
+        "confirmedCases": 42382,
+        "reportedDeaths": 5422
+    },
+    {
+        "country": "Switzerland",
+        "confirmedCases": 30251,
+        "reportedDeaths": 1810
+    },
+    {
+        "country": "India",
+        "confirmedCases": 59662,
+        "reportedDeaths": 1981
+    },
+    {
+        "country": "Portugal",
+        "confirmedCases": 27406,
+        "reportedDeaths": 1126
+    },
+    {
+        "country": "Ecuador",
+        "confirmedCases": 31881,
+        "reportedDeaths": 1569
+    },
+    {
+        "country": "Peru",
+        "confirmedCases": 61847,
+        "reportedDeaths": 1714
+    },
+    {
+        "country": "Ireland",
+        "confirmedCases": 22541,
+        "reportedDeaths": 1429
+    },
+    {
+        "country": "Sweden",
+        "confirmedCases": 25921,
+        "reportedDeaths": 3220
+    },
+    {
+        "country": "Israel",
+        "confirmedCases": 16444,
+        "reportedDeaths": 245
+    },
+    {
+        "country": "Saudi Arabia",
+        "confirmedCases": 35432,
+        "reportedDeaths": 229
+    },
+    {
+        "country": "Austria",
+        "confirmedCases": 15735,
+        "reportedDeaths": 615
+    },
+    {
+        "country": "Mexico",
+        "confirmedCases": 31522,
+        "reportedDeaths": 3160
+    },
+    {
+        "country": "Japan",
+        "confirmedCases": 15663,
+        "reportedDeaths": 607
+    },
+    {
+        "country": "Singapore",
+        "confirmedCases": 22460,
+        "reportedDeaths": 20
+    },
+    {
+        "country": "Chile",
+        "confirmedCases": 25972,
+        "reportedDeaths": 294
+    },
+    {
+        "country": "Pakistan",
+        "confirmedCases": 27474,
+        "reportedDeaths": 618
+    },
+    {
+        "country": "Poland",
+        "confirmedCases": 15510,
+        "reportedDeaths": 777
+    },
+    {
+        "country": "South Korea",
+        "confirmedCases": 10840,
+        "reportedDeaths": 256
+    },
+    {
+        "country": "Romania",
+        "confirmedCases": 14811,
+        "reportedDeaths": 898
+    },
+    {
+        "country": "Belarus",
+        "confirmedCases": 21101,
+        "reportedDeaths": 121
+    },
+    {
+        "country": "Qatar",
+        "confirmedCases": 21331,
+        "reportedDeaths": 13
+    },
+    {
+        "country": "United Arab Emirates",
+        "confirmedCases": 16793,
+        "reportedDeaths": 174
+    },
+    {
+        "country": "Indonesia",
+        "confirmedCases": 13645,
+        "reportedDeaths": 959
+    },
+    {
+        "country": "Denmark",
+        "confirmedCases": 10319,
+        "reportedDeaths": 526
+    },
+    {
+        "country": "Ukraine",
+        "confirmedCases": 14710,
+        "reportedDeaths": 376
+    },
+    {
+        "country": "Serbia",
+        "confirmedCases": 10032,
+        "reportedDeaths": 213
+    },
+    {
+        "country": "Norway",
+        "confirmedCases": 8069,
+        "reportedDeaths": 217
+    },
+    {
+        "country": "Philippines",
+        "confirmedCases": 10610,
+        "reportedDeaths": 704
+    },
+    {
+        "country": "Czech Republic",
+        "confirmedCases": 8078,
+        "reportedDeaths": 273
+    },
+    {
+        "country": "Australia",
+        "confirmedCases": 6929,
+        "reportedDeaths": 97
+    },
+    {
+        "country": "Dominican Republic",
+        "confirmedCases": 9376,
+        "reportedDeaths": 380
+    },
+    {
+        "country": "Malaysia",
+        "confirmedCases": 6589,
+        "reportedDeaths": 108
+    },
+    {
+        "country": "Panama",
+        "confirmedCases": 8070,
+        "reportedDeaths": 231
+    },
+    {
+        "country": "Bangladesh",
+        "confirmedCases": 13770,
+        "reportedDeaths": 214
+    },
+    {
+        "country": "Colombia",
+        "confirmedCases": 10051,
+        "reportedDeaths": 428
+    },
+    {
+        "country": "Finland",
+        "confirmedCases": 5880,
+        "reportedDeaths": 265
+    },
+    {
+        "country": "South Africa",
+        "confirmedCases": 8895,
+        "reportedDeaths": 178
+    },
+    {
+        "country": "Egypt",
+        "confirmedCases": 8476,
+        "reportedDeaths": 503
+    },
+    {
+        "country": "Morocco",
+        "confirmedCases": 5873,
+        "reportedDeaths": 186
+    },
+    {
+        "country": "Luxembourg",
+        "confirmedCases": 3871,
+        "reportedDeaths": 100
+    },
+    {
+        "country": "Argentina",
+        "confirmedCases": 5611,
+        "reportedDeaths": 293
+    },
+    {
+        "country": "Algeria",
+        "confirmedCases": 5369,
+        "reportedDeaths": 488
+    },
+    {
+        "country": "Moldova",
+        "confirmedCases": 4728,
+        "reportedDeaths": 159
+    },
+    {
+        "country": "Thailand",
+        "confirmedCases": 3004,
+        "reportedDeaths": 56
+    },
+    {
+        "country": "Kuwait",
+        "confirmedCases": 7623,
+        "reportedDeaths": 49
+    },
+    {
+        "country": "Bahrain",
+        "confirmedCases": 4595,
+        "reportedDeaths": 8
+    },
+    {
+        "country": "Kazakhstan",
+        "confirmedCases": 4946,
+        "reportedDeaths": 31
+    },
+    {
+        "country": "Greece",
+        "confirmedCases": 2691,
+        "reportedDeaths": 150
+    },
+    {
+        "country": "Hungary",
+        "confirmedCases": 3213,
+        "reportedDeaths": 405
+    },
+    {
+        "country": "Croatia",
+        "confirmedCases": 2176,
+        "reportedDeaths": 87
+    },
+    {
+        "country": "Oman",
+        "confirmedCases": 3224,
+        "reportedDeaths": 17
+    },
+    {
+        "country": "Uzbekistan",
+        "confirmedCases": 2349,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Iceland",
+        "confirmedCases": 1801,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Iraq",
+        "confirmedCases": 2603,
+        "reportedDeaths": 104
+    },
+    {
+        "country": "Armenia",
+        "confirmedCases": 3175,
+        "reportedDeaths": 44
+    },
+    {
+        "country": "Azerbaijan",
+        "confirmedCases": 2422,
+        "reportedDeaths": 31
+    },
+    {
+        "country": "Estonia",
+        "confirmedCases": 1733,
+        "reportedDeaths": 60
+    },
+    {
+        "country": "Cameroon",
+        "confirmedCases": 2267,
+        "reportedDeaths": 108
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "confirmedCases": 2090,
+        "reportedDeaths": 102
+    },
+    {
+        "country": "Afghanistan",
+        "confirmedCases": 4033,
+        "reportedDeaths": 115
+    },
+    {
+        "country": "New Zealand",
+        "confirmedCases": 1492,
+        "reportedDeaths": 21
+    },
+    {
+        "country": "Lithuania",
+        "confirmedCases": 1436,
+        "reportedDeaths": 49
+    },
+    {
+        "country": "Puerto Rico",
+        "confirmedCases": 2173,
+        "reportedDeaths": 108
+    },
+    {
+        "country": "Slovenia",
+        "confirmedCases": 1454,
+        "reportedDeaths": 100
+    },
+    {
+        "country": "Slovakia",
+        "confirmedCases": 1455,
+        "reportedDeaths": 26
+    },
+    {
+        "country": "North Macedonia",
+        "confirmedCases": 1622,
+        "reportedDeaths": 91
+    },
+    {
+        "country": "Cuba",
+        "confirmedCases": 1741,
+        "reportedDeaths": 74
+    },
+    {
+        "country": "Ghana",
+        "confirmedCases": 4012,
+        "reportedDeaths": 18
+    },
+    {
+        "country": "Bulgaria",
+        "confirmedCases": 1911,
+        "reportedDeaths": 88
+    },
+    {
+        "country": "Nigeria",
+        "confirmedCases": 3912,
+        "reportedDeaths": 117
+    },
+    {
+        "country": "Ivory Coast",
+        "confirmedCases": 1602,
+        "reportedDeaths": 20
+    },
+    {
+        "country": "Hong Kong",
+        "confirmedCases": 1045,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Djibouti",
+        "confirmedCases": 1135,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Guinea",
+        "confirmedCases": 2009,
+        "reportedDeaths": 11
+    },
+    {
+        "country": "Tunisia",
+        "confirmedCases": 1030,
+        "reportedDeaths": 45
+    },
+    {
+        "country": "Bolivia",
+        "confirmedCases": 2266,
+        "reportedDeaths": 106
+    },
+    {
+        "country": "Cyprus",
+        "confirmedCases": 891,
+        "reportedDeaths": 15
+    },
+    {
+        "country": "Latvia",
+        "confirmedCases": 928,
+        "reportedDeaths": 18
+    },
+    {
+        "country": "Andorra",
+        "confirmedCases": 752,
+        "reportedDeaths": 48
+    },
+    {
+        "country": "Albania",
+        "confirmedCases": 856,
+        "reportedDeaths": 31
+    },
+    {
+        "country": "Cruise ship (Diamond Princess)",
+        "confirmedCases": 712,
+        "reportedDeaths": 13
+    },
+    {
+        "country": "Lebanon",
+        "confirmedCases": 809,
+        "reportedDeaths": 26
+    },
+    {
+        "country": "Costa Rica",
+        "confirmedCases": 773,
+        "reportedDeaths": 6
+    },
+    {
+        "country": "Niger",
+        "confirmedCases": 795,
+        "reportedDeaths": 44
+    },
+    {
+        "country": "Kosovo",
+        "confirmedCases": 862,
+        "reportedDeaths": 28
+    },
+    {
+        "country": "Kyrgyzstan",
+        "confirmedCases": 931,
+        "reportedDeaths": 12
+    },
+    {
+        "country": "Burkina Faso",
+        "confirmedCases": 744,
+        "reportedDeaths": 48
+    },
+    {
+        "country": "Senegal",
+        "confirmedCases": 1634,
+        "reportedDeaths": 15
+    },
+    {
+        "country": "Honduras",
+        "confirmedCases": 1771,
+        "reportedDeaths": 107
+    },
+    {
+        "country": "Uruguay",
+        "confirmedCases": 694,
+        "reportedDeaths": 18
+    },
+    {
+        "country": "Channel Islands",
+        "confirmedCases": 545,
+        "reportedDeaths": 38
+    },
+    {
+        "country": "San Marino",
+        "confirmedCases": 623,
+        "reportedDeaths": 41
+    },
+    {
+        "country": "Palestine",
+        "confirmedCases": 547,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Georgia",
+        "confirmedCases": 626,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Malta",
+        "confirmedCases": 490,
+        "reportedDeaths": 5
+    },
+    {
+        "country": "Jordan",
+        "confirmedCases": 508,
+        "reportedDeaths": 9
+    },
+    {
+        "country": "Sri Lanka",
+        "confirmedCases": 844,
+        "reportedDeaths": 9
+    },
+    {
+        "country": "Guatemala",
+        "confirmedCases": 900,
+        "reportedDeaths": 24
+    },
+    {
+        "country": "Taiwan",
+        "confirmedCases": 440,
+        "reportedDeaths": 6
+    },
+    {
+        "country": "Democratic Republic of Congo",
+        "confirmedCases": 937,
+        "reportedDeaths": 39
+    },
+    {
+        "country": "Réunion Island",
+        "confirmedCases": 427,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Mayotte",
+        "confirmedCases": 854,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Kenya",
+        "confirmedCases": 649,
+        "reportedDeaths": 30
+    },
+    {
+        "country": "Mauritius",
+        "confirmedCases": 332,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Somalia",
+        "confirmedCases": 928,
+        "reportedDeaths": 44
+    },
+    {
+        "country": "Mali",
+        "confirmedCases": 668,
+        "reportedDeaths": 35
+    },
+    {
+        "country": "Montenegro",
+        "confirmedCases": 324,
+        "reportedDeaths": 8
+    },
+    {
+        "country": "Venezuela",
+        "confirmedCases": 388,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Isle of Man",
+        "confirmedCases": 329,
+        "reportedDeaths": 23
+    },
+    {
+        "country": "Tanzania",
+        "confirmedCases": 509,
+        "reportedDeaths": 21
+    },
+    {
+        "country": "Jamaica",
+        "confirmedCases": 490,
+        "reportedDeaths": 9
+    },
+    {
+        "country": "El Salvador",
+        "confirmedCases": 784,
+        "reportedDeaths": 16
+    },
+    {
+        "country": "Vietnam",
+        "confirmedCases": 288,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Paraguay",
+        "confirmedCases": 563,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Congo",
+        "confirmedCases": 274,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Faroe Islands",
+        "confirmedCases": 187,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Rwanda",
+        "confirmedCases": 273,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Sudan",
+        "confirmedCases": 1111,
+        "reportedDeaths": 59
+    },
+    {
+        "country": "Martinique",
+        "confirmedCases": 186,
+        "reportedDeaths": 14
+    },
+    {
+        "country": "Gabon",
+        "confirmedCases": 620,
+        "reportedDeaths": 8
+    },
+    {
+        "country": "Guadeloupe",
+        "confirmedCases": 154,
+        "reportedDeaths": 13
+    },
+    {
+        "country": "Myanmar",
+        "confirmedCases": 178,
+        "reportedDeaths": 6
+    },
+    {
+        "country": "Guam",
+        "confirmedCases": 151,
+        "reportedDeaths": 5
+    },
+    {
+        "country": "Brunei",
+        "confirmedCases": 141,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Gibraltar",
+        "confirmedCases": 144,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Maldives",
+        "confirmedCases": 734,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Madagascar",
+        "confirmedCases": 193,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Cambodia",
+        "confirmedCases": 122,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Ethiopia",
+        "confirmedCases": 194,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Liberia",
+        "confirmedCases": 199,
+        "reportedDeaths": 20
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "confirmedCases": 116,
+        "reportedDeaths": 8
+    },
+    {
+        "country": "French Guiana",
+        "confirmedCases": 138,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Cruise ship (Grand Princess)",
+        "confirmedCases": 103,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Aruba",
+        "confirmedCases": 101,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Bermuda",
+        "confirmedCases": 118,
+        "reportedDeaths": 7
+    },
+    {
+        "country": "Monaco",
+        "confirmedCases": 95,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Togo",
+        "confirmedCases": 145,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Cape Verde",
+        "confirmedCases": 230,
+        "reportedDeaths": 2
+    },
+    {
+        "country": "Barbados",
+        "confirmedCases": 83,
+        "reportedDeaths": 7
+    },
+    {
+        "country": "Equatorial Guinea",
+        "confirmedCases": 439,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Sierra Leone",
+        "confirmedCases": 257,
+        "reportedDeaths": 17
+    },
+    {
+        "country": "Liechtenstein",
+        "confirmedCases": 82,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Zambia",
+        "confirmedCases": 167,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Uganda",
+        "confirmedCases": 101,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Guyana",
+        "confirmedCases": 94,
+        "reportedDeaths": 10
+    },
+    {
+        "country": "Bahamas",
+        "confirmedCases": 92,
+        "reportedDeaths": 11
+    },
+    {
+        "country": "Haiti",
+        "confirmedCases": 146,
+        "reportedDeaths": 12
+    },
+    {
+        "country": "Cayman Islands",
+        "confirmedCases": 81,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Mozambique",
+        "confirmedCases": 82,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Libya",
+        "confirmedCases": 64,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "French Polynesia",
+        "confirmedCases": 60,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Benin",
+        "confirmedCases": 242,
+        "reportedDeaths": 2
+    },
+    {
+        "country": "US Virgin Islands",
+        "confirmedCases": 68,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Guinea-Bissau",
+        "confirmedCases": 594,
+        "reportedDeaths": 2
+    },
+    {
+        "country": "Nepal",
+        "confirmedCases": 109,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Macau",
+        "confirmedCases": 45,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Syria",
+        "confirmedCases": 47,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Chad",
+        "confirmedCases": 260,
+        "reportedDeaths": 28
+    },
+    {
+        "country": "Eritrea",
+        "confirmedCases": 39,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Saint Martin",
+        "confirmedCases": 38,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Eswatini",
+        "confirmedCases": 159,
+        "reportedDeaths": 2
+    },
+    {
+        "country": "Mongolia",
+        "confirmedCases": 42,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Malawi",
+        "confirmedCases": 43,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Zimbabwe",
+        "confirmedCases": 34,
+        "reportedDeaths": 4
+    },
+    {
+        "country": "Angola",
+        "confirmedCases": 43,
+        "reportedDeaths": 2
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "confirmedCases": 25,
+        "reportedDeaths": 3
+    },
+    {
+        "country": "Timor-Leste",
+        "confirmedCases": 24,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Botswana",
+        "confirmedCases": 23,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Laos",
+        "confirmedCases": 19,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Belize",
+        "confirmedCases": 18,
+        "reportedDeaths": 2
+    },
+    {
+        "country": "Fiji",
+        "confirmedCases": 18,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "New Caledonia",
+        "confirmedCases": 18,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Central African Republic",
+        "confirmedCases": 143,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Dominica",
+        "confirmedCases": 16,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Namibia",
+        "confirmedCases": 16,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Grenada",
+        "confirmedCases": 21,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "confirmedCases": 15,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Saint Lucia",
+        "confirmedCases": 18,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Curacao",
+        "confirmedCases": 16,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "confirmedCases": 17,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Falkland Islands",
+        "confirmedCases": 13,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Burundi",
+        "confirmedCases": 15,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Greenland",
+        "confirmedCases": 11,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Montserrat",
+        "confirmedCases": 11,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Nicaragua",
+        "confirmedCases": 16,
+        "reportedDeaths": 5
+    },
+    {
+        "country": "Seychelles",
+        "confirmedCases": 11,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Turks and Caicos",
+        "confirmedCases": 12,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Gambia",
+        "confirmedCases": 20,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Suriname",
+        "confirmedCases": 10,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Vatican City",
+        "confirmedCases": 12,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Papua New Guinea",
+        "confirmedCases": 8,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Bhutan",
+        "confirmedCases": 7,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Mauritania",
+        "confirmedCases": 8,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "Saint Barthelemy",
+        "confirmedCases": 6,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "British Virgin Islands",
+        "confirmedCases": 7,
+        "reportedDeaths": 1
+    },
+    {
+        "country": "South Sudan",
+        "confirmedCases": 120,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "confirmedCases": 208,
+        "reportedDeaths": 5
+    },
+    {
+        "country": "Anguilla",
+        "confirmedCases": 3,
+        "reportedDeaths": 0
+    },
+    {
+        "country": "Yemen",
+        "confirmedCases": 34,
+        "reportedDeaths": 7
+    },
+    {
+        "country": "Tajikistan",
+        "confirmedCases": 522,
+        "reportedDeaths": 12
+    },
+    {
+        "country": "Comoros",
+        "confirmedCases": 8,
+        "reportedDeaths": 1
+    }
+]

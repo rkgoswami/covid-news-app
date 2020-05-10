@@ -2,15 +2,21 @@
   "name": "covidnewsapp",
   "version": "1.0.0",
   "description": "",
-  "main": "covidNews.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server",
+    "test": "nodemon server",
     "csv": "node covidNews && node covidReport"
   },
   "author": "Rishav Goswami",
   "license": "ISC",
   "dependencies": {
     "csvjson": "^5.1.0",
+    "express": "^4.17.1",
+    "express-zip": "^3.0.0",
     "jsonstream": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
