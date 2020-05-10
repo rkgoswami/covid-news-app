@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-function jsonToCsvConvertor(jsonData, reportTitle, showHeader = true) {
+function jsonToCsv(jsonData, reportTitle, showHeader = true) {
     let csvContent = '';
     // set header
     if (showHeader) {
@@ -32,8 +32,8 @@ function jsonToCsvConvertor(jsonData, reportTitle, showHeader = true) {
     let dateTitle = new Date().toISOString().split('T')[0];
     fs.writeFile(path.join(__dirname, 'reports', reportTitle + '-' + dateTitle + '.csv'), csvContent, (err) => {
         if (err) throw err;
-        console.log('Written into file ...');
+        console.log(`Generated file for ${reportTitle}`);
     });
 };
 
-module.exports = jsonToCsvConvertor;
+module.exports = jsonToCsv;

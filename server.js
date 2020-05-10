@@ -1,52 +1,30 @@
-const http = require("http");
-const result = require("./test");
-const latestNews = require("./rawNews");
+const zip = require('express-zip');
+const path = require('path');
+const getLatestNews = require('./covidNews');
+const covidReport = require('./covidReport');
 
-const server = http.createServer((req, res) => {
-    const { method, url } = req;
+const express = require('express');
+const app = express();
 
-    console.log(result);
+app.use(express.static('./'));
 
-    const finalData = getRealtimeData();
+app.get("/", (req, res) => {
+    getLatestNews();
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+})
 
-    let status = 200;
-    res.writeHead(status, {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*"
-    });
-
-    res.end(JSON.stringify(finalData));
-
-    res.on('data', (chunk) => {
-
-    }).on('end', () => {
-        let status = 200;
-        res.writeHead(status, {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*"
-        });
-
-        res.end(JSON.stringify(finalData));
-    });
+app.get("/download", (req, res) => {
+    covidReport();
+    const dateTitle = new Date().toISOString().split('T')[0];
+    const filePath = path.join(__dirname, 'reports');
+    res.zip([
+        { path: filePath + '/apac-' + dateTitle +'.csv', name: 'apac.csv' },
+        { path: filePath + '/europe-'+ dateTitle +'.csv', name: 'europe.csv' },
+        { path: filePath + '/mena-'+ dateTitle +'.csv', name: 'mena.csv' },
+        { path: filePath + '/rotw-'+ dateTitle +'.csv', name: 'rotw.csv' },
+        { path: filePath + '/sarc-'+ dateTitle +'.csv', name: 'sarc.csv' }
+    ]);
 });
 
 const PORT = 4894;
-
-server.listen(PORT, () => console.log(`Server running at port ${PORT}`));
-
-
-function getRealtimeData() {
-    return latestNews.feed["entry"].map(item => {
-        let country = item.gsx$country.$t.trim()
-        let data = result[country];
-        // if(!data) {
-        //     delete data.value;
-        // }
-        return {
-            ...data,
-            country: item.gsx$country.$t.trim(),
-            confirmedCases: +item.gsx$confirmedcases.$t.replace(/,/g, ""),
-            reportedDeaths: +item.gsx$reporteddeaths.$t.replace(/,/g, "")
-        };
-    });
-}
+app.listen(PORT, () => console.log(`Server running at port ${PORT}`));

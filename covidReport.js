@@ -1,6 +1,5 @@
-const jsonToCsvConvertor = require('./jsonToCsv');
-
-const latestNews = require("./rawNews");
+const jsonToCsv = require('./jsonToCsv');
+const newsData = require("./public/rawNews");
 
 const _europe = require("./utils/europe");
 const _mena = require("./utils/mena");
@@ -17,31 +16,39 @@ const regionMap = {
 };
 
 // extract covid report from feed
-function getCovidNews(latestNews) {
-    return latestNews.feed["entry"].map(item => {
-        return {
-          country: item.gsx$country.$t.trim(),
-          confirmedCases: +item.gsx$confirmedcases.$t.replace(/,/g, ""),
-          reportedDeaths: +item.gsx$reporteddeaths.$t.replace(/,/g, "")
-        };
-    });
-}
+// function getCovidNews(latestNews) {
+//     return latestNews.feed["entry"].map(item => {
+//         return {
+//           country: item.gsx$country.$t.trim(),
+//           confirmedCases: +item.gsx$confirmedcases.$t.replace(/,/g, ""),
+//           reportedDeaths: +item.gsx$reporteddeaths.$t.replace(/,/g, "")
+//         };
+//     });
+// }
 
 
 // prepare list by region
-function getUpdateByRegion(region) {
+function getUpdateByRegion(region, covidAffectedList) {
     return region.map(item => covidAffectedList.find(s => s.country === item)).filter(item => item !== undefined);
 }
 
 // prepare list by region and generate report for it
-const covidAffectedList = getCovidNews(latestNews);
-console.log(covidAffectedList);
+function covidReport() {
+    // const covidAffectedList = getCovidNews(latestNews);
+    const covidAffectedList = newsData;
+    // console.log(covidAffectedList);
 
-for (const key in regionMap) {
-    let output = getUpdateByRegion(regionMap[key]);
+    for (const key in regionMap) {
+        let output = getUpdateByRegion(regionMap[key], covidAffectedList);
 
-    // console.log(output);
-    output.sort((a, b) => b.confirmedCases - a.confirmedCases);
-    jsonToCsvConvertor(output, key);
+        // console.log(output);
+        output.sort((a, b) => b.confirmedCases - a.confirmedCases);
+        jsonToCsv(output, key);
+    }
 }
+
+// covidReport();
+
+module.exports = covidReport;
+
 
